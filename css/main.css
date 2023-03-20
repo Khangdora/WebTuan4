@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+}
+
+#center {
+    width: 910px;
+    border-left: 1px solid #ccc !important;
+}
+
+#right {
+    width: 440px;
+    border-left: 1px solid #ccc !important;
+}
+
+#left {
+    width: 90px;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#left_above {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#below {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 32px;
+    margin-top: 50px;
+}
+
+.logo {
+    width: 45px;
+}
+
+#setting {
+    margin-top: 36px;
+}
+
+.header {
+    display: block;
+    height: 50px;
+}
+
+.container {
+    margin: 30px;
+}
+
+.title {
+    float: left;
+    font-size: 23px;
+}
+
+.time-live {
+    float: right;
+    border: 1px solid red !important;
+    border-radius: 16px;
+    padding: 6px;
+    color: red;
+    width: 90px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.info-post {
+    display: flex;
+}
+
+.info-post-user {
+    background: rgb(243, 88, 140);
+    border-radius: 16px;
+    padding: 7px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+}
+
+.info-post-item {
+    font-size: 13px;
+    padding: 7px 20px;
+}
+
+.info-post .hr {
+    padding: 7px 0px;
+}
+
+.live-main {
+    position: relative;
+    margin-top: 35px;
+}
+
+.live-main #main {
+    cursor: pointer;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.live-text {
+    position: absolute;
+}
+
+.live-micro {
+    position: absolute;
+    top: -440px;
+    right: -785px;
+}
+
+.live-status {
+    position: absolute;
+    width: 160px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    top: -440px;
+    right: -180px;
+}
+
+.live-status span {
+    color: rgb(122, 255, 122);
+    font-size: 10px;
+    top: 5px;
+}
+
+.list-live,
+.tool-live {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.live-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.live-item img {
+    border-radius: 10px;
+}
+
+.live-item-mic img {
+    width: 35px;
+}
+
+.live-item-mic {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    right: 10px;
+    justify-content: end;
+}
+
+.live-item-user {
+    position: absolute;
+    display: flex;
+    top: 10px;
+    left: 10px;
+    justify-content: end;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.live-item-user span {
+    color: rgb(122, 255, 122);
+    font-size: 10px;
+    padding-right: 7px;
+}
+
+.tool-live {
+    width: 500px;
+    margin: 20px 170px;
+}
+
+.txt-end {
+    background: red;
+    color: white;
+    padding: 12px;
+}
+
+.subadd {
+    float: right;
+    border: 1px solid red !important;
+    border-radius: 5px;
+    padding: 6px;
+    color: red;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title span {
+    font-size: 13px;
+    font-weight: normal;
+    background: rgb(252, 208, 215);
+    padding: 5px;
+    border-radius: 10px;
+    color: red;
+}
+
+.participant-item {
+    display: inline-block;
+    width: 100%;
+}
+
+.participant-tool {
+    float: right;
+}
+
+.participant-name {
+    padding: 8px;
+    margin-left: 34px;
+    font-size: 15px;
+}
+
+.participant-tool {
+    position: relative;
+    top: -30px;
+}
+
+#participants {
+    border-bottom: 1px solid #ccc !important;
+    margin-left: 0px;
+    padding-left: 50px;
+}
+
+.chat-item {
+    padding-bottom: 0.75rem;
+    padding-top: 0.75rem;
+    display: block;
+    height: 100px;
+}
+
+.chat-name {
+    font-weight: 500;
+    margin: 10px;
+}
+
+.chat-info {
+    float: right;
+    width: 330px;
+}
+
+.chat-time {
+    font-weight: normal;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.chat-content {
+    background: rgb(240, 240, 240);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.chat-info .pink {
+    background: rgb(255, 218, 224);
+}
